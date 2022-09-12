@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+:root {
+    --background: #FFD433;
+    --primary: #3633FF;
+    --textcolors: #FFFF33;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background:#3633FF;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    height: 55%;
+    margin-left: 50px;
+
+}
+.navbar,
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+.navbar{
+    gap: 100px;
+}
+.servicios{
+    gap: 40px;
+}
+.navbar a{
+    color: #FFD433;
+    font-size: 16px;
+}
+.carrocompras{
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 25px;
+    cursor: pointer;  
+}

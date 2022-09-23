@@ -51,3 +51,95 @@ header{
     margin-right: 25px;
     cursor: pointer;  
 }
+main{
+    background: radial-gradient(#004ff9, #fff94c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#hero{
+    margin-top: 50px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding-top: 85px;
+}
+.hero-info h1{
+    font-size: 34px;
+    font-weight: 700;
+    color: yellow;
+}
+.hero-info p{
+    font-size: 23px;
+    width: 61%;
+    color: white;
+}
+.hero-info p > span{
+    color: blue;
+    font-weight: 600;
+}
+.hero-info a {
+    color: white;
+    background-color: #337ab7;
+    width: 100px;
+    padding: 6px 6px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center; 
+}
+.hero-card{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.hero-card-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero-card-top h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: yellow;
+}
+.hero-card-bottom{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.hero-card-bottom p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #004589;
+    white-space: nowrap;
+}
+
+.hero-card-bottom span{
+    color: yellow;
+    text-align: center;
+}
+.infoProducts{
+    width: 41%;
+    color: yellow;
+}
+.infoProducts p{
+    font-size: 24px;
+    font-weight: 600;
+}

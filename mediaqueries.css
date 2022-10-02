@@ -59,7 +59,38 @@
     .novedades{
         background-position-x: 50%;
     }
-
-
-
+}
+@media (max-width:768px){
+    .hero-card{
+        display: none;
+    }
+    .hero-info{
+        width: 90%;
+    }
+    .infoProducts p{
+        width: 70%;
+    }
+    .desktop-view{
+        display: none;
+    }
+    .cardItems{
+        flex-wrap: wrap;
+        min-height: 1600px;
+    }
+    .mobile-view{
+        display: block;
+        width: 75%;
+    }
+    .gender a{
+        position: relative;
+    }
+    .imageGender{
+    width: 100%;
+    height: 500px;
+    }
+    .footer{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    } 
 }

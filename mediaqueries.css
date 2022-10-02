@@ -1,0 +1,65 @@
+@media (max-width:992px){
+   .navbar{
+    gap: 10px;
+   }
+   .servicios{
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background: blue;
+    border: 2px solid yellow;
+    border-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+    align-items: flex-start;
+    padding: 40px 30px;
+    gap: 25px;
+    z-index: 2;
+     display: none; 
+   }
+   .servicios a{
+    font-size: 18px;
+   }
+   .menu-label{
+    cursor: pointer;
+    display: flex;
+    order: 2;
+   }
+   .menu-label img{
+    width: 25%;
+   }
+   #menu-toggle:checked + .servicios{
+    display: flex;
+   }
+    .hero-info{
+        width: 60%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+    .hero-info p{
+        width: 60%;
+        max-width: 600px;
+    }
+    .infoProducts p{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .cardItems{
+        max-width: 800px;
+    }
+    .novedades{
+        background-position-x: 50%;
+    }
+
+
+
+}

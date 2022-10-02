@@ -1,6 +1,7 @@
-@media (max-width:992px){
+@media (max-width:960px){
    .navbar{
     gap: 10px;
+    width: 20%;
    }
    .servicios{
     position: absolute;
@@ -19,6 +20,9 @@
     z-index: 2;
      display: none; 
    }
+   .carrocompras{
+    margin-right: 0;
+   }
    .servicios a{
     font-size: 18px;
    }
@@ -28,7 +32,7 @@
     order: 2;
    }
    .menu-label img{
-    width: 25%;
+    height: 40px;
    }
    #menu-toggle:checked + .servicios{
     display: flex;
@@ -50,6 +54,7 @@
         max-width: 600px;
     }
     .infoProducts p{
+        width: 60%;
         text-align: center;
         flex-wrap: wrap;
     }
@@ -79,7 +84,7 @@
     }
     .mobile-view{
         display: block;
-        width: 75%;
+        width: 70%;
     }
     .gender a{
         position: relative;
@@ -93,4 +98,30 @@
     flex-direction: column;
     height: 600px;
     } 
+}
+@media (max-width:576px){
+    .hero-info h1{
+        font-size: 28px;
+    }
+    .hero-info p {
+        width: 80%;
+        font-size: 23px;
+    }
+    .infoProducts p{
+        width: 80%;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .mobile-view{
+        width: 90%;
+    }
+    .novedades h3{
+        font-size: 20px;
+    }
+    .novedades p{
+        font-size: 13px;
+    }
+    .footer{
+        gap: 20px;
+    }
 }

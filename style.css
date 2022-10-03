@@ -126,7 +126,7 @@ main{
     font-family: "Work Sans", sans-serif;
     text-decoration: overline;
     margin-top: 10px;
-    color: yellow;
+    color: #fabe08;
 }
 .hero-card-bottom{
     display: flex;
@@ -153,7 +153,6 @@ main{
     height: 190px;
     align-items: center;
     justify-content: center;
-    color: yellow;
 }
 .infoProducts p{
     font-size: 24px;
@@ -189,7 +188,7 @@ main{
     text-align: center;
     font-weight: 600;
     font-family: "Source Sans Pro",sans-serif;
-    color: blue;
+    color: #00438a;
     background: rgb(250 207 66 / 75%);
     position: absolute;
     height: 40px;
